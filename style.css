@@ -1,0 +1,127 @@
+/*                     Estilos basicos                               */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s ease-in-out;
+}
+
+/*                 Estilos principales                      */
+
+body {
+  padding-top: 5em;
+}
+
+.dark {
+  background: rgb(27, 27, 27);
+}
+
+.dark .container {
+  background: #333;
+}
+
+.dark h1 {
+  color: #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.dark p {
+  color: #f2f2f2;
+}
+.dark .container footer {
+  background: #989898;
+  color: rgb(232, 232, 232);
+}
+
+.container {
+  background: #f2f2f2;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(4, 4, 4, 0.682);
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  margin-top: 2em;
+  left: 50%;
+  width: 90%;
+  height: 10vh;
+  line-height: 10vh;
+  transform: translate(-50%);
+  border-bottom: 2px solid #000;
+  user-select: none;
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  position: relative;
+  width: 90%;
+  margin-top: 3em;
+  left: 50%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.img {
+  margin: 3em;
+  height: 62%;
+}
+
+img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  box-shadow: 15px 12px 5px 0px rgba(0, 0, 0, 0.59);
+}
+
+footer {
+  position: relative;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  bottom: 0%;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50pc;
+}
+
+.togglemode {
+  float: right;
+  margin: 1em;
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  background: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.togglemode div {
+  background-color: #222;
+  position: relative;
+  bottom: 3px;
+  right: 2px;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+}
+
+.move {
+  position: relative;
+  left: 1em;
+}
+
+.toggle {
+  background-color: #222;
+}
+
+.toggle div {
+  background: #fff;
+}
